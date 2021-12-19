@@ -1,0 +1,44 @@
+.faqcontainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faqtitle{
+  width: 120px;
+  height: 40px;
+  border-bottom:3px solid #ffd951;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  // line-height: 28.13px;
+}
+.faqCard{
+  width: 343px;
+  margin-top : 40px;
+  p{
+    font-size: 14px;
+  }
+}
+.questionbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color : #515151;
+    width: 289px;
+    margin : 0;
+  }
+}
+
+.icon{
+  width: 50px;
+  height: 30px;
+  color : #8b8b8b;
+  cursor: pointer;
+  
+}

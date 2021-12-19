@@ -1,0 +1,11 @@
+.navMenuItem {
+  @apply max-w-xs text-normal-text rounded-lg cursor-pointer text-lg transition transform hover:underline underline-offset-2 hover:text-yellow hover:font-bold hover:translate-x-1 motion-reduce:transition-none motion-reduce:transform-none;
+}
+
+.rightMenu {
+  @apply hidden lg:flex lg:items-center lg:gap-8;
+}
+
+.menuItem {
+  @apply text-font-black hover:text-yellow hover:font-bold hover:underline;
+}

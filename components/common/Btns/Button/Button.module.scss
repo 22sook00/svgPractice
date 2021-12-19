@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: aquamarine;
+
+  svg {
+    fill: transparent;
+    stroke: #8b8b8b;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  &:hover {
+    color: #ffd951;
+
+    svg {
+      stroke: #ffd951;
+    }
+  }
+}

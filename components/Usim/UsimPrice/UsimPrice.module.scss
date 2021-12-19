@@ -1,0 +1,46 @@
+.pricecontainer{
+  width: 100%;
+  height: 321px;
+  background-color: #ffeeb4;
+  opacity: 0.15;
+  margin: 52px 0;
+  position: relative;
+}
+.textcontainer{
+  width: 100%;
+  height: 100%;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position :absolute;
+  top : 0;
+  text-align: center;
+}
+.textbox{
+  >h1{
+    font-size : 28px;
+    font-weight: 900;
+    margin : 0;
+    line-height: 32.81px;
+    >span{
+      color : #ffd951;
+    }
+  }
+  p{
+    margin-top: 3px;
+    line-height: 24px;
+    letter-spacing: -1%;
+    font-size: 14px;
+  }
+}
+.customBtn{
+  width: 125px ;
+  height: 40px ;
+  background : #ffd951 ;
+  color : #515151;
+  line-height: 28px;
+  border-radius: 5px;
+  font-size : 16px;
+  font-weight: 400;
+}
